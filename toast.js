@@ -53,18 +53,18 @@ function toast({
 // function show success
 function showSuccess() {
     toast({
-        title: 'Notification!', // Title of the notification 
-        message: 'Create account success.', // Content
-        type: 'success', // Type of the notification. There are 4 types (success, info, warning, danger)
-        duration: 4000 // Time notifying
+        title: 'Notification!',
+        message: 'Create account success.',
+        type: 'success',
+        duration: 4000
     });
 }
 
 // function show info
 function showInfo() {
     toast({
-        title: 'Thông tin!',
-        message: 'Trạng thái tài khoản đang cập nhật.',
+        title: 'Info!',
+        message: 'Information.',
         type: 'info',
         duration: 4000
     });
@@ -73,8 +73,8 @@ function showInfo() {
 // function show warning
 function showWarning() {
     toast({
-        title: 'Đã xảy ra lỗi!',
-        message: 'Đã xảy ra lỗi trong quá trình đăng ký.',
+        title: 'Warning!',
+        message: 'Account creation failed.',
         type: 'warning',
         duration: 4000
     });
@@ -83,8 +83,8 @@ function showWarning() {
 // function show danger
 function showDanger() {
     toast({
-        title: 'Cảnh báo!',
-        message: 'Nếu bạn xóa thông tin sẽ không thể khôi phục',
+        title: 'Danger!',
+        message: 'Your operation is not allowed.',
         type: 'danger',
         duration: 4000
     });
