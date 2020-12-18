@@ -35,17 +35,17 @@ function toast({
         toast.classList.add('toast', `toast--${type}`, index + 1);
         toast.style.animation = `slideToLeft ease .5s, fadeOut ease 1s ${delay}s forwards`;
         toast.innerHTML = `
-            <div class="toast__icon">
-                <i class="${icon}"></i>
-            </div>
-            <div class="toast__body">
-                <h3 class="toast__title">${title}</h3>
-                <p class="toast__msg">${message}</p>
-            </div>
-            <div class="toast__close">
-                <i class="far fa-times"></i>
-            </div>
-        `;
+                    <div class="toast__icon">
+                        <i class="${icon}"></i>
+                    </div>
+                    <div class="toast__body">
+                        <h3 class="toast__title">${title}</h3>
+                        <p class="toast__msg">${message}</p>
+                    </div>
+                    <div class="toast__close">
+                        <i class="far fa-times"></i>
+                    </div>
+                `;
         main.appendChild(toast);
     }
 };
@@ -53,10 +53,10 @@ function toast({
 // function show success
 function showSuccess() {
     toast({
-        title: 'Thông báo!',
-        message: '1234',
-        type: 'success',
-        duration: 4000
+        title: 'Notification!', // Title of the notification 
+        message: 'Create account success.', // Content
+        type: 'success', // Type of the notification. There are 4 types (success, info, warning, danger)
+        duration: 4000 // Time notifying
     });
 }
 
