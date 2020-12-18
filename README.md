@@ -20,12 +20,13 @@
      }
     ```
 4. Call the function to execute.
-   
 
-****
-**
+----------
 
-https://img.shields.io/static/v1?label=<LABEL>&message=<MESSAGE>&color=<COLOR>
-```language
+**Screen Shot**
 
-```
+![alt text](screenshot.png "Screen shot")
+
+----------
+## Creator
+[@minhducng](https://github.com/minhducng132)
